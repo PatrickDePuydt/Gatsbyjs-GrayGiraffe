@@ -2,7 +2,7 @@ import React from "react";
 
 export default ({ data }) => (
   <div style={{ margin: '3rem auto', maxWidth: 600 }}>
-    <h1>About {data.site.siteMetadata.title}</h1>
+    <h1>{data.site.siteMetadata.name}</h1>
     <div>
       <p>
         From Richard Hamming’s classic and must-read talk, “<a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
@@ -29,7 +29,7 @@ export const query = graphql`
   query homeQuery {
     site {
       siteMetadata {
-        title
+        name
       }
     }
   }
