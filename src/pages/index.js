@@ -1,8 +1,8 @@
 import React from "react";
 
-export default () => (
+export default ({ data }) => (
   <div style={{ margin: '3rem auto', maxWidth: 600 }}>
-    <h1>Richard Hamming on Luck</h1>
+    <h1>About {data.site.siteMetadata.title}</h1>
     <div>
       <p>
         From Richard Hamming’s classic and must-read talk, “<a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
@@ -24,3 +24,14 @@ export default () => (
     <p>Posted April 09, 2011</p>
   </div>
 );
+
+export const query = graphql`
+  query homeQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
+

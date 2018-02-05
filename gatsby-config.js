@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+	title: `Pat DePuydt`,
+	},
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
