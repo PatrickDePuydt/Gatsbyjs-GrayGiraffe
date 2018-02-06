@@ -12,4 +12,4 @@
 		github: "github.com/patrickdepuydt",
 		linkedin: "linkedin.com/in/patrickdepuydt"
 	}
-]
+] 
