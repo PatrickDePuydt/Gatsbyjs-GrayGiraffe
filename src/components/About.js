@@ -10,33 +10,27 @@ const About = () => (
         <img className="profile-pic" src={profilePic} alt="" />
       </div>
       <div className="nine columns main-col">
-        <h2>About Me</h2>
+        <h2>Who is this man?</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          A self-taught go-get-em front-end interface developer in search of constant improvement. With the eye of a graphic designer who relates to user experience design; the skills and perspective of a developer keeping in mind a non-technical perspective and the hunger of an efficiency-monger. 
+        </p>
+        <p>
+          Half Ron Swanson, half Chris Traeger.
         </p>
         <div className="row">
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Jonathan Doe</span>
+              <span>Pat DePuydt</span>
               <br />
               <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
+                1945 S. Kihei Road
+                <br /> Maui, HI 96753 US
               </span>
               <br />
-              <span>(123)456-7890</span>
+              <span>(505) 917-5971</span>
               <br />
-              <span>anyone@website.com</span>
+              <span>prdepuydt@gmail.com</span>
             </p>
           </div>
           <div className="columns download">
