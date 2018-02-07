@@ -972,6 +972,7 @@ ul#nav {
 
   /* center align the menu */
   text-align: center;
+  background: black;
 }
 ul#nav li {
   position: relative;
