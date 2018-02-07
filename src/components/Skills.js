@@ -4,50 +4,38 @@ const Skills = () => (
   <div className="row skill">
     <div className="three columns header-col">
       <h1>
-        <span>Skills</span>
+        <span>Dev Skills</span>
       </h1>
     </div>
 
     <div className="nine columns main-col">
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.
+        HTML/CSS, ES6/jQuery, Bash/Shell Scripting, Git/Github/Jira, Sass/LESS, OOP JS(React), Dev Ops (NPM Scripts/Grunt/Gulp/Webpack), Web Animations(CSS3 & Snap SVG). <br />
+        Backend exposure: NodeJS/MongoDB, Ruby on Rails (Postgres).
       </p>
 
-      <div className="bars">
-        <ul className="skills">
-          <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
-          </li>
-          <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
-          </li>
-          <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
-          </li>
-          <li>
-            <span className="bar-expand css" />
-            <em>CSS</em>
-          </li>
-          <li>
-            <span className="bar-expand html5" />
-            <em>HTML5</em>
-          </li>
-          <li>
-            <span className="bar-expand nodejs" />
-            <em>Nodejs</em>
-          </li>
-        </ul>
-      </div>
+      <p>
+        Currently playing around with Gatsby/GraphQL. Exposure to PHP Frameworks (Drupal, Wordpress), immutable data (Immutable JS/Redux), containerization (Docker/Apache/CentOS).
+      </p>
+
+    
+    </div>
+
+    <div className="three columns header-col">
+      <h1>
+        <span>Design Skills</span>
+      </h1>
+    </div>
+
+    <div className="nine columns main-col">
+      <p>
+        Sketch, inVISION, Adobe Photoshop, Illustrator, InDesign, Lightroom
+      </p>
+    
     </div>
   </div>
+
+
 );
 
 export default Skills;
