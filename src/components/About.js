@@ -35,7 +35,7 @@ const About = () => (
           </div>
           <div className="columns download">
             <p>
-              <a href="#" className="button">
+              <a href="https://www.dropbox.com/s/4eap4jzsm2vp400/PatDePuydt.pdf?dl=0" className="button">
                 <FaCloudDownload /> Download Resume
               </a>
             </p>
