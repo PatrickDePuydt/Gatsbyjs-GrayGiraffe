@@ -7,7 +7,7 @@ const Banner = () => (
       <h1 className="responsive-headline">I'm Pat DePuydt</h1>
       <h3>
         I'm a Hawaii-based <span>interface developer</span>,
-        <span> web designer</span> creating kick-ass front-ends for companys and projects.
+        <span> web designer</span> creating kick-ass front-ends for companies and projects.
       </h3>
       <hr />
       <SocialLinks />
